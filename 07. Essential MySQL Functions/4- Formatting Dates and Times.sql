@@ -1,0 +1,5 @@
+select date_format(now(),'%y')
+select date_format(now(),'%d %m %Y')
+select date_format(now(),'%Y %m %d')
+select date_format(now(),'%D %M %Y')
+select time_format(now(),'%H:%i %p')
